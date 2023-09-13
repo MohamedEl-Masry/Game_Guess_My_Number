@@ -1,0 +1,13 @@
+header {
+
+    background-color: black;
+    border-bottom: 10px solid white;
+
+}
+ .guessNumber{
+    border: 5px solid rgb(161, 241, 197) ;
+    width: 10%;
+    left: 45%;
+    z-index: 10;
+    background-color: bisque;
+ }

@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <title>Game Guess My Number</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-info">
+    <header class="pb-5">
+      <button class="btn btn-light py-3 px-4 mt-4 ms-5" id="btnAgain">
+        <p class="fw-bolder fs-3">Again</p>
+      </button>
+      <h1 class="text-center pb-4 text-white fa-3x fw-bold">
+        Guess My Number !
+      </h1>
+      <p
+        class="position-absolute top-0 end-0 mt-4 me-5 text-white fs-4 fw-bolder"
+      >
+        (Between 1 and 20)
+      </p>
+      <div
+        class="fa-3x text-center text-black p-3 guessNumber position-absolute fw-bolder"
+      >
+        ?
+      </div>
+    </header>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <input
+              type="number"
+              id="check"
+              class="w-50 border-5 border-white py-4 px-3 mt-5 fa-3x fw-bold"
+            />
+            <br />
+            <label
+              for="check"
+              class="btn btn-light mt-4 ms-5 py-3 px-5 fs-2 fw-bold"
+              id="btnCheck"
+              >Check</label
+            >
+          </div>
+          <div class="col-md-6 mt-5 text-start ps-5">
+            <p class="m-5 fs-2 fw-bold ps-5" id="message">
+              🕹 Start guessing ...
+            </p>
+            <div class="m-5 fs-2 fw-bold ps-5">
+              ✨ Score : <span id="score">20</span>
+            </div>
+            <div class="m-5 fs-2 fw-bold ps-5">
+              🏆 High score : <span id="highScore">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  /
+</html>
